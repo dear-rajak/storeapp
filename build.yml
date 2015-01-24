@@ -1,0 +1,25 @@
+---
+sdkversion: 5.0.0
+name: testapp
+version: '1.0'
+vendor: rhomobile
+build: debug
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator7.0
+  provisionprofile: ''
+  codesignidentity: iPhone Developer
+  entitlements: ''
+  BundleIdentifier: com.rhomobile.testapp
+  BundleURLScheme: testapp
+wp8:
+  productid: e9197040-42a4-0132-bd8a-00ffb09a850d
+android:
+  manifest_template: AndroidManifest.erb
+  version: 2.3.3
+wm: ''
+extensions:
+- rhoconnect-client
+app_type: rhoelements
+capabilities: []
